@@ -1,0 +1,19 @@
+body {
+    min-height: 100%;
+}
+
+.container {
+    min-height: 97.5vh;
+    min-width: 100%;
+    border: 2px solid black;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.starter {
+    display: flex;
+    flex-flow: column wrap;
+    height: 0.0625%;
+    width: 0.0625%;
+    border: 2px solid black;
+}
