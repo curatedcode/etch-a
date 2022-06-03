@@ -1,19 +1,26 @@
 body {
     min-height: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-.container {
-    min-height: 97.5vh;
-    min-width: 100%;
+#main1 {
+    height: 608px;
+    width: 608px;
     border: 2px solid black;
     display: flex;
     flex-flow: row wrap;
 }
 
-.starter {
+#babyDiv1 {
     display: flex;
-    flex-flow: column wrap;
-    height: 0.0625%;
-    width: 0.0625%;
+    flex-flow: column;
+    height: 32px;
+    width: 32px;
     border: 2px solid black;
+    margin: auto;
+}
+
+.babyStyle {
+    background-color: blue;
 }
